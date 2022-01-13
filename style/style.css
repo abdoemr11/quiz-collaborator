@@ -41,3 +41,22 @@
     }
 }
 /*End global rule*/
+/*Start tabs*/
+.tabs .tap-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+.tabs .new-question {display: none}
+.tabs .new-question form {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+@media (min-width: 1200px) {
+    .tabs .new-question form  {
+        grid-template-columns: auto auto;
+    }
+}
+/*end tabs*/

@@ -25,17 +25,31 @@
                 <button class="show-question">Show Questions</button>
                 <button class="add-question">Add Question</button>
             </div>
-            <div class="all-questions"></div>
+            <div class="all-questions">
+                <p>Question 1</p>
+                <p>Question 1 text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dicta laudantium nihil quibusdam temporibus, vitae.</p>
+                <p>Answer 1 by <span id="answer-owner">Answer owner</span></p>
+                <p>Answer 1 text</p>
+                <img src="" alt="answer 1 text">
+                <hr>
+                <label for="answer-text">Enter Your Answer</label>
+                <input type="text" id="answer-text">
+                <button> Post New Answer</button>
+            </div>
             <div class="new-question">
-                <label for="question-text">Enter the quesion</label>
-                <input type="text" name="" id="question-text">
-                <label for="possible-answer-text">Enter Your Answer in Text </label>
-                <input type="text" name="" id="possible-answer-text">
-                <label for="possible-answer-image">Enter Your Answer in image </label>
-                <input type="text" name="" id="possible-answer-image">
-                <button>Post Question</button>
+                <form action="">
+                    <label for="question-text">Enter the quesion</label>
+                    <input type="text" name="" id="question-text">
+                    <label for="possible-answer-text">Enter Your Answer in Text </label>
+                    <input type="text" name="" id="possible-answer-text">
+                    <label for="possible-answer-image">Enter Your Answer in image </label>
+                    <input type="file" accept="image/*" name="" id="possible-answer-image">
+
+                    <button>Post Question</button>
+                </form>
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
