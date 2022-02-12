@@ -7,7 +7,7 @@ class DataBase
     public function __construct()
     {
 
-        $this->conn= new mysqli("localhost", "root", "123ASDZX", "antenna");
+        $this->conn= new mysqli("quizcollaborator.mysql.database.azure.com", "abdo", "123ASDzx", "antenna");
         if($this->conn->connect_error) die("Fatal error");
 
     }
