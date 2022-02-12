@@ -50,9 +50,9 @@ class DataBase
             {
                 $quest->add_answer($row[0], $row[1]);
             }
-            $quest->print_question();
+           // $quest->print_question();
         }
-
+        return $questions;
 
     }
 

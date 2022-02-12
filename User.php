@@ -19,6 +19,6 @@ class User
     }
     public function retrive_all_questions()
     {
-        $this->data_base->query_all_questions();
+        return $this->data_base->query_all_questions();
     }
 }
