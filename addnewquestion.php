@@ -5,4 +5,4 @@ $user = new User();
 
 if(!(isset($_POST["question-text"])&& isset($_POST["question-owner"])))
     throw new Exception("not all question attribute are filled");
-$user->addQuestion($_POST["question-text"], $_POST["question-owner"]);
+$user->addQuestion($_POST["question-owner"], $_POST["question-text"]);
